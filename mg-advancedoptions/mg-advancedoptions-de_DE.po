@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mg-advancedoptions\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/mg-advancedoptions\n"
+"POT-Creation-Date: 2008-07-29 13:36+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sascha Schoppengerd <info@mountaingrafix.at>\n"
+"Language-Team: MountainGrafix <info@mountaingrafix.at>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: MG_AdvancedOptions.php:89
+msgid "Options saved..."
+msgstr "Die Einstellungen wurden gespeichert..."
+
+#: MG_AdvancedOptions.php:95
+msgid "Advanced Options"
+msgstr "Erweiterte Einstellungen"
+
+#: MG_AdvancedOptions.php:98
+msgid "Revision Status"
+msgstr "Versionierung"
+
+#: MG_AdvancedOptions.php:99
+msgid "Disable Post Revisions"
+msgstr "Speichern von Artikelversionen deaktivieren"
+
+#: MG_AdvancedOptions.php:102
+msgid "Revision Limit"
+msgstr "max. Artikel"
+
+#: MG_AdvancedOptions.php:103
+msgid "Posts"
+msgstr "Artikel"
+
+#: MG_AdvancedOptions.php:106
+msgid "Autosave"
+msgstr "Autosave"
+
+#: MG_AdvancedOptions.php:107
+msgid "Disable Autosave during writing a Post"
+msgstr "Automatisches speichern während des Schreibens deaktvieren"
+
+#: MG_AdvancedOptions.php:112
+msgid "Save Options"
+msgstr "Einstellungen speichern"
+

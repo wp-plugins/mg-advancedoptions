@@ -3,10 +3,12 @@
 Plugin Name: AdvancedOptions
 Plugin URI: http://www.mountaingrafix.at/
 Description: This plugin disables the Post Revision System in WordPress 2.6 and it gives you more Control about the Autosave - Function. 
-Version: 1.1
+Version: 1.2
 Author: MountainGrafix
 Author URI: http://www.mountaingrafix.at/
 */
+
+load_plugin_textdomain ('mg-advancedoptions', 'wp-content/plugins/mg-advancedoptions');
 
 /* ***************************************************************************************************** */
 
