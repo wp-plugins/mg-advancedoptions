@@ -2,8 +2,8 @@
 /*
 Plugin Name: AdvancedOptions
 Plugin URI: http://www.mountaingrafix.at/
-Description: Dieses kleine Plugin erweitert den Adminbereich des Wordpress - Blogs um einige versteckte Einstellungsmöglichkeiten. 
-Version: 1.0
+Description: This plugin disables the Post Revision System in WordPress 2.6 and it gives you more Control about the Autosave - Function. 
+Version: 1.1
 Author: MountainGrafix
 Author URI: http://www.mountaingrafix.at/
 */
@@ -86,30 +86,30 @@ function MG_PrintAdminHTML() {
 		
 		?> 
 		
-		<div style="background-color:rgb(207, 235, 247);" id="message" class="updated fade"><p>Die Änderungen wurden erfolgreich gespeichert!</p></div> 
+		<div style="background-color:rgb(207, 235, 247);" id="message" class="updated fade"><p><?php _e('Options saved...','mg-advancedoptions'); ?></p></div> 
 	
 	<?php } ?>
 	
 	<div class="wrap">
 		<form action="<?php echo $_SERVER['PHP_SELF']; ?>?page=MG_AdvancedOptions.php" method="post">
-			<h2>Erweiterte Einstellungen</h2>
+			<h2><?php _e('Advanced Options','mg-advancedoptions'); ?></h2>
 			<table class="form-table">
 			<tr valign="top">
-				<th scope="row">Versionierung</th>
-				<td><label for="MG_DeaktivateVersionHistory"><input name="MG_DeaktivateVersionHistory" type="checkbox" id="MG_DeaktivateVersionHistory" value="1" <?php checked('1', get_option('MG_DeaktivateVersionHistory')); ?> />&nbsp;Die Versionierung der einzelnen Artikel <u>deaktivieren</u></label></td>
+				<th scope="row"><?php _e('Revision Status','mg-advancedoptions'); ?></th>
+				<td><label for="MG_DeaktivateVersionHistory"><input name="MG_DeaktivateVersionHistory" type="checkbox" id="MG_DeaktivateVersionHistory" value="1" <?php checked('1', get_option('MG_DeaktivateVersionHistory')); ?> />&nbsp;<?php _e('Disable Post Revisions','mg-advancedoptions'); ?></label></td>
 			</tr>
 			<tr valign="top">
-				<th scope="row">max. Artikel</th>
-				<td><input name="MG_MaxVersionHistoryFiles" type="text" id="MG_MaxVersionHistoryFiles" value="<?php form_option('MG_MaxVersionHistoryFiles'); ?>" maxlength="2" size="2" style="width:1.5em;" /> Artikel speichern</td>
+				<th scope="row"><?php _e('Revision Limit','mg-advancedoptions'); ?></th>
+				<td><input name="MG_MaxVersionHistoryFiles" type="text" id="MG_MaxVersionHistoryFiles" value="<?php form_option('MG_MaxVersionHistoryFiles'); ?>" maxlength="2" size="2" style="width:1.5em;" /> <?php _e('Posts','mg-advancedoptions'); ?></td>
 			</tr>
 			<tr valign="top">
-				<th scope="row">Autosave</th>
-				<td><label for="MG_DisableAutosave"><input name="MG_DisableAutosave" type="checkbox" id="MG_DisableAutosave" value="1" <?php checked('1', get_option('MG_DisableAutosave')); ?> />&nbsp;Automatisches speichern der einzelnen Artikel <u>deaktivieren</u></label></td>
+				<th scope="row"><?php _e('Autosave','mg-advancedoptions'); ?></th>
+				<td><label for="MG_DisableAutosave"><input name="MG_DisableAutosave" type="checkbox" id="MG_DisableAutosave" value="1" <?php checked('1', get_option('MG_DisableAutosave')); ?> />&nbsp;<?php _e('Disable Autosave during writing a Post','mg-advancedoptions'); ?></label></td>
 			</tr>
 			</table>
 			
 			<p class="submit">
-				<input type="submit" name="submit" value="Änderungen speichern &raquo;" class="button" />
+				<input type="submit" name="submit" value="<?php _e('Save Options','mg-advancedoptions'); ?> &raquo;" class="button" />
 			</p>
 		</form>
 	</div>
