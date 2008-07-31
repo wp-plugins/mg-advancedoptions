@@ -19,7 +19,7 @@ The new post revision system in Wordpress 2.6 needs a lot of database performanc
 
 **Changelog:**
 
-* v1.3 	- Added French Translation (Thanks to Fred!)
+* v1.3 	- Added French Translation (Thanks Fred!)
 * v1.2 	- Fixed Bug: load_text_domain()
 * v1.1 	- Added I18n Support
 * v1.0 	- First Release
