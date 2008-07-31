@@ -4,7 +4,7 @@ Donate link: http://www.mountaingrafix.at/redir/paypal-mg-advancedoptions.php
 Tags: revisions, admin, post, 2.6
 Requires at least: 2.6.0
 Tested up to: 2.6.0
-Stable tag: 1.2
+Stable tag: 1.3
 
 With this Plugin you can activate or deactivate the WordPress post revision system and the Autosave-Functions over the Adminpanel.
 
@@ -19,19 +19,18 @@ The new post revision system in Wordpress 2.6 needs a lot of database performanc
 
 **Changelog:**
 
-* v1.2 - Fixed Bug: load_text_domain()
-* v1.1 - Added I18n Support
-* v1.0 - First Release
+* v1.3 	- Added French Translation (Thanks Fred!)
+* v1.2 	- Fixed Bug: load_text_domain()
+* v1.1 	- Added I18n Support
+* v1.0 	- First Release
 
 == Installation ==
 
 1. Download the Pluginfile
 2. Unzip the File on your local PC
-3. Copy `/mg-advancedoptions` in your Wordpress Plugin Directory
+3. Copy Folder `/mg-advancedoptions` in your Wordpress Plugin Directory
 4. Activate the Plugin through the 'Plugins' menu in WordPress
 5. Manage your Settings here: *WP Admin -> Settings -> AdvancedOptions*
-
-== Arbitrary section ==
 
 = Translations =
 
